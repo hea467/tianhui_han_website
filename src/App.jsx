@@ -61,8 +61,11 @@ function Home() {
         {/* Right side - Content */}
         <div className="flex-1">
           <p className="mb-6">Hi! I'm a recent Computer Science graduate from Carnegie Mellon University.
-            I'm continuing at CMU to pursue a Master's in Robotics. Currently, I'm working with Professor Zeynep Temel
-            on physics simulation and learning of soft, foldable robots.
+            I'm continuing at CMU to pursue a Master's in Robotics (MSR). My general research interst is in
+            robotics simulation and health care robotics. Previously, I worked with Professor Zeynep Temel
+            on physics simulation and learning of soft, foldable robots. Currently, I'm exploring my research interests in
+            assitive robotics with at the Robotic Caregiving and Human Interaction (RCHI) lab advised by Professor Zackory Erickson.
+            I'm currently working on a development of in-attention robotic assisted feeding policy.
           </p>
           <div className="space-x-4 mb-6">
             <button className="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={scrollToProjects}>View Projects</button>
@@ -159,6 +162,14 @@ function TechExp() {
       tech: ['Python', 'SQL', 'React', 'Flask']
     },
     {
+      title: 'Undergraduate Mathematics Research Apprenticeship',
+      info: "Carnegie Mellon University (2022-2023)",
+      description: `Investigated the properties of convex set representations, researched box convex sets realization given its code.
+      Presented research result poster at 2023 Joint Mathematics Meeting. Paper peer reviewed and accepted for publication
+      at Involve mathematics journal. `,
+      tech: ['Mathematics', 'Research']
+    },
+    {
       title: 'Teaching Assistant',
       info: "Carnegie Mellon University (2022-2023)",
       description: `Coordinated with professor and led two weekly recitations of 20+ students in a 200+ students course, assisted in problem
@@ -208,7 +219,7 @@ function Projects() {
       CMU's Gates Center. Performed genetic algorithms (crossover & mutation) for performance comparison, honing
       efficiency and adaptability.`,
       tech: ['Python', 'AI', 'Genetic Algorithms']
-    },
+    }
   ];
   return (
     <div>
