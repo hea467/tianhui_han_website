@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
 import './index.css';
 
+// npm run build
+// npm run deploy
 
 function App() {
   return (
@@ -62,7 +64,7 @@ function Home() {
         <div className="flex-1">
           <p className="mb-6">Hi! I'm a recent Computer Science graduate from Carnegie Mellon University.
             I'm continuing at CMU to pursue a Master's in Robotics (MSR). My general research interst is in
-            robotics simulation and health care robotics. Previously, I worked with Professor Zeynep Temel
+            robotics simulation and healthcare robotics. Previously, I worked with Professor Zeynep Temel
             on physics simulation and learning of soft, foldable robots. Currently, I'm exploring my research interests in
             assitive robotics with at the Robotic Caregiving and Human Interaction (RCHI) lab advised by Professor Zackory Erickson.
             I'm currently working on a development of in-attention robotic assisted feeding policy.
