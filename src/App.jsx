@@ -149,6 +149,14 @@ function About() {
 function TechExp() {
   const TechExps = [
     {
+      title: 'Graduate Research Assistant',
+      info: "Carnegie Mellon University, Obi Robotics Company",
+      description: `Built a multimodal perception system for an assistive feeding robot combining computer vision and gaze tracking to
+      model user attentiveness. Built and collected VLM baseline performance and implementing Transformer and TCN
+      architectures for predictive attention modeling.`,
+      tech: ['Assitive Robotics', 'VLM', 'Deep Learning', 'Transformer']
+    },
+    {
       title: 'Robotics Undergraduate Research Fellowship',
       info: "Carnegie Mellon University (2024 - 2025)",
       description: `Created soft, foldable mechanisms in physics simulator MuJoCo and trained RL agents to perform goal-conditioned tasks. 
@@ -252,6 +260,11 @@ function Publications() {
       title: 'Dynamic Modeling and Interactive Design of Origami Mechanisms',
       description: 'ICRA Multi-Stable and Origami-based Soft Robots Workshop',
       link: "/tiffany-website/Tianhui_Han_ICRA_Workshop.pdf"
+    },
+    {
+      title: 'From Fold to Function: Dynamic Modeling and Simulation-Driven Design of Origami Mechanisms',
+      description: '9th IEEE-RAS International Conference on Soft Robotics',
+      link: "/tiffany-website/robosoft_paper.pdf"
     },
   ];
   return (
