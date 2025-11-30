@@ -264,7 +264,7 @@ function Publications() {
     {
       title: 'From Fold to Function: Dynamic Modeling and Simulation-Driven Design of Origami Mechanisms',
       description: '9th IEEE-RAS International Conference on Soft Robotics',
-      link: "/tiffany-website/robosoft_paper.pdf"
+      link: "https://arxiv.org/abs/2511.10580"
     },
   ];
   return (
