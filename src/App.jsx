@@ -7,7 +7,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router basename="/tiffany-website">
+    <Router basename="/tianhui_han_website">
       <div className="min-h-screen bg-white text-gray-900 font-mono ">
         <h1 className="text-xl font-bold text-center bg-gray-100 pt-4 pb-4">Tianhui (Tiffany) Han</h1>
         {/* <nav className="bg-gray-200 p-4 shadow-md flex justify-center items-center ">
