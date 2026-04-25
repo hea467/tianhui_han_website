@@ -54,7 +54,7 @@ function Home() {
         <div className="flex-shrink-0">
           <img
             // src="/pictures/profile.png"
-            src="/tiffany-website/pictures/profile.png"
+            src="/tianhui_han_website/pictures/profile.png"
             alt="Tiffany Han3"
             className="w-64 h-64 object-cover rounded-lg"
           />
@@ -72,7 +72,7 @@ function Home() {
           <div className="space-x-4 mb-6">
             <button className="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={scrollToProjects}>View Projects</button>
             <button className="bg-blue-300 text-black px-4 py-2 rounded hover:bg-blue-500" onClick={scrollToPublications}>View Publications</button>
-            <button onClick={() => window.open('/tiffany-website/Tiffany_Resume.pdf')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-500">Download Resume</button>
+            <button onClick={() => window.open('/tianhui_han_website/Tiffany_Resume.pdf')} className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-500">Download Resume</button>
           </div>
 
           {/* Social Media Links Row */}
@@ -259,7 +259,7 @@ function Publications() {
     {
       title: 'Dynamic Modeling and Interactive Design of Origami Mechanisms',
       description: 'ICRA Multi-Stable and Origami-based Soft Robots Workshop',
-      link: "/tiffany-website/Tianhui_Han_ICRA_Workshop.pdf"
+      link: "/tianhui_han_website/Tianhui_Han_ICRA_Workshop.pdf"
     },
     {
       title: 'From Fold to Function: Dynamic Modeling and Simulation-Driven Design of Origami Mechanisms',
